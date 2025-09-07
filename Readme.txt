@@ -54,6 +54,7 @@ The project uses **Playwright with Page Object Model (POM)**, with different `.j
 ---Base URL is stored in .config.js file and used as '/' in the solution
 ---Settings for Parallisation , report type , video recording , retry attemsts are stored in .config.js
 ---POM is used as architech design so that each loactor and method can be reused , maintain easily and make code scalable 
+-- Reports are published to https://harmanjeet3.github.io/PlaywrightsauceDemoTesting/reports/playwright/
 
 Commonly used commands to run the tests through terminal 
 -npx playwright test  --project="Chromium" --headed
