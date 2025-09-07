@@ -1,6 +1,82 @@
-<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="3.2277609999999406">
-<testsuite name="sortProducts.spec.js" timestamp="2025-09-07T20:55:50.811Z" hostname="chromium" tests="1" failures="0" skipped="0" time="1.16" errors="0">
-<testcase name="Sort Products Descending" classname="sortProducts.spec.js" time="1.16">
+<testsuites id="" name="" tests="18" failures="0" skipped="0" errors="0" time="46.495737999999996">
+<testsuite name="addTOCart.spec.js" timestamp="2025-09-07T21:54:50.506Z" hostname="chromium" tests="1" failures="0" skipped="0" time="4.075" errors="0">
+<testcase name="Add two specific products to cart" classname="addTOCart.spec.js" time="4.075">
+</testcase>
+</testsuite>
+<testsuite name="checkout.spec.js" timestamp="2025-09-07T21:54:50.506Z" hostname="chromium" tests="1" failures="0" skipped="0" time="4.46" errors="0">
+<testcase name="Complete checkout with valid details" classname="checkout.spec.js" time="4.46">
+</testcase>
+</testsuite>
+<testsuite name="login.spec.js" timestamp="2025-09-07T21:54:50.506Z" hostname="chromium" tests="2" failures="0" skipped="0" time="7.687" errors="0">
+<testcase name="Login Test with valid Credentials" classname="login.spec.js" time="3.825">
+</testcase>
+<testcase name="Login Test with invalid Credentials" classname="login.spec.js" time="3.862">
+</testcase>
+</testsuite>
+<testsuite name="sortProducts.spec.js" timestamp="2025-09-07T21:54:50.506Z" hostname="chromium" tests="2" failures="0" skipped="0" time="8.17" errors="0">
+<testcase name="Sort Products" classname="sortProducts.spec.js" time="3.976">
+<system-out>
+<![CDATA[Prices: [ [33m7.99[39m, [33m9.99[39m, [33m15.99[39m, [33m15.99[39m, [33m29.99[39m, [33m49.99[39m ]
+]]>
+</system-out>
+</testcase>
+<testcase name="Sort Products Descending" classname="sortProducts.spec.js" time="4.194">
+<system-out>
+<![CDATA[Prices: [ [33m49.99[39m, [33m29.99[39m, [33m15.99[39m, [33m15.99[39m, [33m9.99[39m, [33m7.99[39m ]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="addTOCart.spec.js" timestamp="2025-09-07T21:54:50.506Z" hostname="firefox" tests="1" failures="0" skipped="0" time="20.14" errors="0">
+<testcase name="Add two specific products to cart" classname="addTOCart.spec.js" time="20.14">
+</testcase>
+</testsuite>
+<testsuite name="checkout.spec.js" timestamp="2025-09-07T21:54:50.506Z" hostname="firefox" tests="1" failures="0" skipped="0" time="15.372" errors="0">
+<testcase name="Complete checkout with valid details" classname="checkout.spec.js" time="15.372">
+</testcase>
+</testsuite>
+<testsuite name="login.spec.js" timestamp="2025-09-07T21:54:50.506Z" hostname="firefox" tests="2" failures="0" skipped="0" time="40.486" errors="0">
+<testcase name="Login Test with valid Credentials" classname="login.spec.js" time="19.205">
+</testcase>
+<testcase name="Login Test with invalid Credentials" classname="login.spec.js" time="21.281">
+</testcase>
+</testsuite>
+<testsuite name="sortProducts.spec.js" timestamp="2025-09-07T21:54:50.506Z" hostname="firefox" tests="2" failures="0" skipped="0" time="38.325" errors="0">
+<testcase name="Sort Products" classname="sortProducts.spec.js" time="21.951">
+<system-out>
+<![CDATA[Prices: [ [33m7.99[39m, [33m9.99[39m, [33m15.99[39m, [33m15.99[39m, [33m29.99[39m, [33m49.99[39m ]
+]]>
+</system-out>
+</testcase>
+<testcase name="Sort Products Descending" classname="sortProducts.spec.js" time="16.374">
+<system-out>
+<![CDATA[Prices: [ [33m49.99[39m, [33m29.99[39m, [33m15.99[39m, [33m15.99[39m, [33m9.99[39m, [33m7.99[39m ]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="addTOCart.spec.js" timestamp="2025-09-07T21:54:50.506Z" hostname="webkit" tests="1" failures="0" skipped="0" time="1.38" errors="0">
+<testcase name="Add two specific products to cart" classname="addTOCart.spec.js" time="1.38">
+</testcase>
+</testsuite>
+<testsuite name="checkout.spec.js" timestamp="2025-09-07T21:54:50.506Z" hostname="webkit" tests="1" failures="0" skipped="0" time="3.668" errors="0">
+<testcase name="Complete checkout with valid details" classname="checkout.spec.js" time="3.668">
+</testcase>
+</testsuite>
+<testsuite name="login.spec.js" timestamp="2025-09-07T21:54:50.506Z" hostname="webkit" tests="2" failures="0" skipped="0" time="4.955" errors="0">
+<testcase name="Login Test with valid Credentials" classname="login.spec.js" time="2.585">
+</testcase>
+<testcase name="Login Test with invalid Credentials" classname="login.spec.js" time="2.37">
+</testcase>
+</testsuite>
+<testsuite name="sortProducts.spec.js" timestamp="2025-09-07T21:54:50.506Z" hostname="webkit" tests="2" failures="0" skipped="0" time="5.216" errors="0">
+<testcase name="Sort Products" classname="sortProducts.spec.js" time="2.677">
+<system-out>
+<![CDATA[Prices: [ [33m7.99[39m, [33m9.99[39m, [33m15.99[39m, [33m15.99[39m, [33m29.99[39m, [33m49.99[39m ]
+]]>
+</system-out>
+</testcase>
+<testcase name="Sort Products Descending" classname="sortProducts.spec.js" time="2.539">
 <system-out>
 <![CDATA[Prices: [ [33m49.99[39m, [33m29.99[39m, [33m15.99[39m, [33m15.99[39m, [33m9.99[39m, [33m7.99[39m ]
 ]]>
