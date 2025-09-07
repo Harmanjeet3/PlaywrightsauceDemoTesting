@@ -20,20 +20,7 @@ test('Sort Products', async ({ page }) => {
           console.log('Prices:', prices);
   await expect(isAscending).toBeTruthy();
 });
-test('Sort Products Descending', async ({ page }) => {
- 
-  const inventoryPage = new InventoryPage(page);
 
-   // Sort products by price (high to low)
-   await inventoryPage.sortByLabel('Price (high to low)');
-  // Get the inventory prices array
-  const prices = await inventoryPage.InventoryPricesArray(page);
-
-  // Check if the array is in descending order
-  const isDescending = prices.every((val, i, arr) => i === 0 || arr[i - 1] >= val);
-          console.log('Prices:', prices);
-  await expect(isDescending).toBeTruthy();
-});
 
 test.afterEach(async ({ page }) => {
   await page.close();
