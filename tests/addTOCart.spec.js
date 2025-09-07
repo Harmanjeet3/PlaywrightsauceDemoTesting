@@ -16,7 +16,7 @@ test('Add two specific products to cart', async ({ page }) => {
   await inventoryPage.addSpecificItemToCart('bike-light');
 
   // Step 2: Verify cart badge 
-  await expect(inventoryPage.cartBadge).toContainText('6');
+  await expect(inventoryPage.cartBadge).toContainText('2');
 });
 
 

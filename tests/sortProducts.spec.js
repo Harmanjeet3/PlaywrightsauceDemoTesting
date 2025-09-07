@@ -17,7 +17,7 @@ test('Sort Products', async ({ page }) => {
   
   // Check if the array is in ascending order
   const isAscending = prices.every((val, i, arr) => i === 0 || arr[i - 1] <= val);
-          console.log('Prices:', prices);
+       //   console.log('Prices:', prices);
   await expect(isAscending).toBeTruthy();
 });
 
