@@ -35,7 +35,7 @@ The project uses **Playwright with Page Object Model (POM)**, with different `.j
    - Verify prices appear in ascending order.  
 
 ---
-
+ 
 ## How to View the Report  
 1. After test execution, Playwright generates an HTML report.  
 2. Run the following command to open it in your browser:  
@@ -45,7 +45,14 @@ The project uses **Playwright with Page Object Model (POM)**, with different `.j
    ```  
 
    OR open `playwright-report/index.html` directly.  
+-----------------------------------------------------
+In the Github two jobs are running- Playwright test and Publish Reports 
+-- User can get the Playwright report in HTMl and download in local 
+-- The Second job publish the rpeort in URL https://harmanjeet3.github.io/PlaywrightsauceDemoTesting/reports/playwright/
+-- Bith the jobs acan be triggered manually or whnever there is push inmain branch 
+-- Report is Published using the Github Pages
 
+-------------------------------------------------
 - Note: Each new test run **overwrites the previous report** unless you archive it manually.  
 ---There are fours spec.js files in tests folder have 4 test cases 
 ---For each test class there are hooks to login and close the browser 
