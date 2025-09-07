@@ -1,0 +1,10 @@
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="3.2277609999999406">
+<testsuite name="sortProducts.spec.js" timestamp="2025-09-07T20:55:50.811Z" hostname="chromium" tests="1" failures="0" skipped="0" time="1.16" errors="0">
+<testcase name="Sort Products Descending" classname="sortProducts.spec.js" time="1.16">
+<system-out>
+<![CDATA[Prices: [ [33m49.99[39m, [33m29.99[39m, [33m15.99[39m, [33m15.99[39m, [33m9.99[39m, [33m7.99[39m ]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>

@@ -19,6 +19,9 @@ test('Add two specific products to cart', async ({ page }) => {
   await expect(inventoryPage.cartBadge).toContainText('2');
 });
 
+
+
+
 test.afterEach(async ({ page }) => {
   await page.close();
 });
